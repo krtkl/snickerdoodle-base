@@ -1,0 +1,6 @@
+10:56:00 INFO  : Registering command handlers for SDK TCF services
+10:56:03 INFO  : Launching XSCT server: xsct -n -interactive /home/bush/snickerdoodle/snickerdoodle.sdk/temp_xsdb_launch_script.tcl
+10:56:05 INFO  : XSCT server has started successfully.
+10:56:06 INFO  : Successfully done setting XSCT server connection channel  
+10:56:06 INFO  : Successfully done setting SDK workspace  
+10:56:06 INFO  : Processing command line option -hwspec /home/bush/snickerdoodle/snickerdoodle.sdk/top_wrapper.hdf.
