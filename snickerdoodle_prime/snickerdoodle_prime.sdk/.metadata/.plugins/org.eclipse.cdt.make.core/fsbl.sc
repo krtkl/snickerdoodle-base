@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?scdStore version="2"?><scannerInfo id="org.eclipse.cdt.make.core.discoveredScannerInfo">
-<instance id="xilinx.gnu.armv7.exe.debug.1005158871;xilinx.gnu.armv7.exe.debug.1005158871.">
+<instance id="xilinx.gnu.armv7.exe.debug.1908519433;xilinx.gnu.armv7.exe.debug.1908519433.">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
-<includePath path="/opt/Xilinx/SDK/2018.1/gnu/aarch32/lin/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.2.1/include"/>
-<includePath path="/opt/Xilinx/SDK/2018.1/gnu/aarch32/lin/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.2.1/include-fixed"/>
-<includePath path="/opt/Xilinx/SDK/2018.1/gnu/aarch32/lin/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include"/>
-<includePath path="/opt/Xilinx/SDK/2018.1/gnu/aarch32/lin/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/include"/>
+<includePath path="c:\xilinx\sdk\2018.2\gnu\aarch32\nt\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/7.2.1/include"/>
+<includePath path="c:\xilinx\sdk\2018.2\gnu\aarch32\nt\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/7.2.1/include-fixed"/>
+<includePath path="c:\xilinx\sdk\2018.2\gnu\aarch32\nt\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include"/>
+<includePath path="c:\xilinx\sdk\2018.2\gnu\aarch32\nt\gcc-arm-none-eabi\bin\../arm-none-eabi/libc/usr/include"/>
 <definedSymbol symbol="__STDC__=1"/>
 <definedSymbol symbol="__STDC_VERSION__=201112L"/>
 <definedSymbol symbol="__STDC_UTF_16__=1"/>
@@ -417,12 +417,15 @@
 <definedSymbol symbol="__USES_INITFINI__=1"/>
 </collector>
 </instance>
-<instance id="xilinx.gnu.armv7.exe.release.1657103860;xilinx.gnu.armv7.exe.release.1657103860.">
+<instance id="xilinx.gnu.armv7.exe.release.1874560369;xilinx.gnu.armv7.exe.release.1874560369.">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
-<includePath path="/opt/Xilinx/SDK/2018.1/gnu/aarch32/lin/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.2.1/include"/>
-<includePath path="/opt/Xilinx/SDK/2018.1/gnu/aarch32/lin/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.2.1/include-fixed"/>
-<includePath path="/opt/Xilinx/SDK/2018.1/gnu/aarch32/lin/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include"/>
-<includePath path="/opt/Xilinx/SDK/2018.1/gnu/aarch32/lin/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/include"/>
+<includePath path="#undef __ARM_FEATURE_CLZ" removed="true"/>
+<includePath path="#undef __ARM_FEATURE_NUMERIC_MAXMIN" removed="true"/>
+<includePath path="c:\xilinx\sdk\2018.2\gnu\aarch32\nt\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/7.2.1/include"/>
+<includePath path="#undef __ARM_FEATURE_SIMD32" removed="true"/>
+<includePath path="c:\xilinx\sdk\2018.2\gnu\aarch32\nt\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/7.2.1/include-fixed"/>
+<includePath path="c:\xilinx\sdk\2018.2\gnu\aarch32\nt\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include"/>
+<includePath path="c:\xilinx\sdk\2018.2\gnu\aarch32\nt\gcc-arm-none-eabi\bin\../arm-none-eabi/libc/usr/include"/>
 <definedSymbol symbol="__STDC__=1"/>
 <definedSymbol symbol="__STDC_VERSION__=201112L"/>
 <definedSymbol symbol="__STDC_UTF_16__=1"/>

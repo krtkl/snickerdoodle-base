@@ -16,7 +16,7 @@ src/pcap.o src/pcap.o: ../src/pcap.c ../src/pcap.h \
  ../../fsbl_bsp/ps7_cortexa9_0/include/xparameters.h \
  ../../fsbl_bsp/ps7_cortexa9_0/include/xpseudo_asm.h \
  ../../fsbl_bsp/ps7_cortexa9_0/include/xil_printf.h ../src/fsbl_debug.h \
- /home/bush/snickerdoodle_prime/snickerdoodle_prime.sdk/top_wrapper_hw_platform_0/ps7_init.h \
+ Z:\Projects\snickerdoodle\snickerdoodle-base\snickerdoodle_prime\snickerdoodle_prime.sdk\base_wrapper_hw_platform_0/ps7_init.h \
  ../src/image_mover.h \
  ../../fsbl_bsp/ps7_cortexa9_0/include/xil_exception.h \
  ../../fsbl_bsp/ps7_cortexa9_0/include/sleep.h \
@@ -64,7 +64,7 @@ src/pcap.o src/pcap.o: ../src/pcap.c ../src/pcap.h \
 
 ../src/fsbl_debug.h:
 
-/home/bush/snickerdoodle_prime/snickerdoodle_prime.sdk/top_wrapper_hw_platform_0/ps7_init.h:
+Z:\Projects\snickerdoodle\snickerdoodle-base\snickerdoodle_prime\snickerdoodle_prime.sdk\base_wrapper_hw_platform_0/ps7_init.h:
 
 ../src/image_mover.h:
 

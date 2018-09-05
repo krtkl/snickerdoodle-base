@@ -1,6 +1,6 @@
 src/ps7_init.o src/ps7_init.o: \
- /home/bush/snickerdoodle_prime/snickerdoodle_prime.sdk/top_wrapper_hw_platform_0/ps7_init.c \
- /home/bush/snickerdoodle_prime/snickerdoodle_prime.sdk/top_wrapper_hw_platform_0/ps7_init.h \
+ Z:/Projects/snickerdoodle/snickerdoodle-base/snickerdoodle_prime/snickerdoodle_prime.sdk/base_wrapper_hw_platform_0/ps7_init.c \
+ Z:/Projects/snickerdoodle/snickerdoodle-base/snickerdoodle_prime/snickerdoodle_prime.sdk/base_wrapper_hw_platform_0/ps7_init.h \
  ../../fsbl_bsp/ps7_cortexa9_0/include/xil_io.h \
  ../../fsbl_bsp/ps7_cortexa9_0/include/xil_types.h \
  ../../fsbl_bsp/ps7_cortexa9_0/include/xil_printf.h \
@@ -11,7 +11,7 @@ src/ps7_init.o src/ps7_init.o: \
  ../../fsbl_bsp/ps7_cortexa9_0/include/xreg_cortexa9.h \
  ../../fsbl_bsp/ps7_cortexa9_0/include/xpseudo_asm_gcc.h
 
-/home/bush/snickerdoodle_prime/snickerdoodle_prime.sdk/top_wrapper_hw_platform_0/ps7_init.h:
+Z:/Projects/snickerdoodle/snickerdoodle-base/snickerdoodle_prime/snickerdoodle_prime.sdk/base_wrapper_hw_platform_0/ps7_init.h:
 
 ../../fsbl_bsp/ps7_cortexa9_0/include/xil_io.h:
 

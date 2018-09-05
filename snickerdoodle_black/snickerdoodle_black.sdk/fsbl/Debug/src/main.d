@@ -16,7 +16,7 @@ src/main.o src/main.o: ../src/main.c ../src/fsbl.h \
  ../../fsbl_bsp/ps7_cortexa9_0/include/xil_io.h \
  ../../fsbl_bsp/ps7_cortexa9_0/include/xstatus.h \
  ../../fsbl_bsp/ps7_cortexa9_0/include/xil_assert.h ../src/fsbl_debug.h \
- /home/bush/snickerdoodle_black/snickerdoodle_black.sdk/top_wrapper_hw_platform_0/ps7_init.h \
+ Z:\Projects\snickerdoodle\snickerdoodle-base\snickerdoodle_black\snickerdoodle_black.sdk\base_wrapper_hw_platform_0/ps7_init.h \
  ../src/qspi.h ../src/nand.h ../src/nor.h ../src/sd.h \
  ../src/image_mover.h ../../fsbl_bsp/ps7_cortexa9_0/include/xil_cache.h \
  ../../fsbl_bsp/ps7_cortexa9_0/include/xil_exception.h \
@@ -64,7 +64,7 @@ src/main.o src/main.o: ../src/main.c ../src/fsbl.h \
 
 ../src/fsbl_debug.h:
 
-/home/bush/snickerdoodle_black/snickerdoodle_black.sdk/top_wrapper_hw_platform_0/ps7_init.h:
+Z:\Projects\snickerdoodle\snickerdoodle-base\snickerdoodle_black\snickerdoodle_black.sdk\base_wrapper_hw_platform_0/ps7_init.h:
 
 ../src/qspi.h:
 
