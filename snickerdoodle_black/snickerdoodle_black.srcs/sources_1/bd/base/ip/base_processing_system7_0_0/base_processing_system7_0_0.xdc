@@ -17,17 +17,17 @@
 ############################################################################
 # Clock constraints                                                        #
 ############################################################################
-create_clock -name clk_fpga_2 -period "6.5" [get_pins "PS7_i/FCLKCLK[2]"]
-set_input_jitter clk_fpga_2 0.195
+create_clock -name clk_fpga_1 -period "10" [get_pins "PS7_i/FCLKCLK[1]"]
+set_input_jitter clk_fpga_1 0.3
+#The clocks are asynchronous, user should constrain them appropriately.#
+create_clock -name clk_fpga_2 -period "6.666" [get_pins "PS7_i/FCLKCLK[2]"]
+set_input_jitter clk_fpga_2 0.19998
 #The clocks are asynchronous, user should constrain them appropriately.#
 create_clock -name clk_fpga_3 -period "5" [get_pins "PS7_i/FCLKCLK[3]"]
 set_input_jitter clk_fpga_3 0.15
 #The clocks are asynchronous, user should constrain them appropriately.#
 create_clock -name clk_fpga_0 -period "20" [get_pins "PS7_i/FCLKCLK[0]"]
 set_input_jitter clk_fpga_0 0.6
-#The clocks are asynchronous, user should constrain them appropriately.#
-create_clock -name clk_fpga_1 -period "10" [get_pins "PS7_i/FCLKCLK[1]"]
-set_input_jitter clk_fpga_1 0.3
 #The clocks are asynchronous, user should constrain them appropriately.#
 
 
@@ -52,42 +52,36 @@ set_property iostandard "LVCMOS18" [get_ports "MIO[51]"]
 set_property PACKAGE_PIN "B9" [get_ports "MIO[51]"]
 set_property slew "slow" [get_ports "MIO[51]"]
 set_property drive "8" [get_ports "MIO[51]"]
-set_property pullup "TRUE" [get_ports "MIO[51]"]
 set_property PIO_DIRECTION "OUTPUT" [get_ports "MIO[51]"]
 #  UART 0 / rx / MIO[50]
 set_property iostandard "LVCMOS18" [get_ports "MIO[50]"]
 set_property PACKAGE_PIN "B13" [get_ports "MIO[50]"]
 set_property slew "slow" [get_ports "MIO[50]"]
 set_property drive "8" [get_ports "MIO[50]"]
-set_property pullup "TRUE" [get_ports "MIO[50]"]
 set_property PIO_DIRECTION "INPUT" [get_ports "MIO[50]"]
 #  SPI 1 / ss[0] / MIO[49]
 set_property iostandard "LVCMOS18" [get_ports "MIO[49]"]
 set_property PACKAGE_PIN "C12" [get_ports "MIO[49]"]
-set_property slew "slow" [get_ports "MIO[49]"]
+set_property slew "fast" [get_ports "MIO[49]"]
 set_property drive "8" [get_ports "MIO[49]"]
-set_property pullup "TRUE" [get_ports "MIO[49]"]
 set_property PIO_DIRECTION "BIDIR" [get_ports "MIO[49]"]
 #  SPI 1 / sclk / MIO[48]
 set_property iostandard "LVCMOS18" [get_ports "MIO[48]"]
 set_property PACKAGE_PIN "B12" [get_ports "MIO[48]"]
-set_property slew "slow" [get_ports "MIO[48]"]
+set_property slew "fast" [get_ports "MIO[48]"]
 set_property drive "8" [get_ports "MIO[48]"]
-set_property pullup "TRUE" [get_ports "MIO[48]"]
 set_property PIO_DIRECTION "BIDIR" [get_ports "MIO[48]"]
 #  SPI 1 / miso / MIO[47]
 set_property iostandard "LVCMOS18" [get_ports "MIO[47]"]
 set_property PACKAGE_PIN "B14" [get_ports "MIO[47]"]
-set_property slew "slow" [get_ports "MIO[47]"]
+set_property slew "fast" [get_ports "MIO[47]"]
 set_property drive "8" [get_ports "MIO[47]"]
-set_property pullup "TRUE" [get_ports "MIO[47]"]
 set_property PIO_DIRECTION "BIDIR" [get_ports "MIO[47]"]
 #  SPI 1 / mosi / MIO[46]
 set_property iostandard "LVCMOS18" [get_ports "MIO[46]"]
 set_property PACKAGE_PIN "D16" [get_ports "MIO[46]"]
-set_property slew "slow" [get_ports "MIO[46]"]
+set_property slew "fast" [get_ports "MIO[46]"]
 set_property drive "8" [get_ports "MIO[46]"]
-set_property pullup "TRUE" [get_ports "MIO[46]"]
 set_property PIO_DIRECTION "BIDIR" [get_ports "MIO[46]"]
 #  SD 0 / data[3] / MIO[45]
 set_property iostandard "LVCMOS18" [get_ports "MIO[45]"]

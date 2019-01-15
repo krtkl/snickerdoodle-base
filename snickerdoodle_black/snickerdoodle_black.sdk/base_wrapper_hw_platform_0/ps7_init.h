@@ -1,31 +1,30 @@
-
 /******************************************************************************
 *
-* (c) Copyright 2010-2014 Xilinx, Inc. All rights reserved.
+* Copyright (C) 2018 Xilinx, Inc.  All rights reserved.
 *
-* Permission is hereby granted, free of charge, to any person obtaining a copy of this
-* software and associated documentation files (the "Software"), to deal in the Software
-* without restriction, including without limitation the rights to use, copy, modify, merge,
-* publish, distribute, sublicense, and/or sell copies of the Software, and to permit
-* persons to whom the Software is furnished to do so, subject to the following conditions:
-* 
-* The above copyright notice and this permission notice shall be included in all copies or 
-* substantial portions of the Software.
-* 
-* Use of the Software is limited solely to applications: (a) running on a Xilinx device, or 
-* (b) that interact with a Xilinx device through a bus or interconnect.  
-* 
-* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING 
-* BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND 
-* NONINFRINGEMENT. IN NO EVENT SHALL THE X CONSORTIUM BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-* LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN 
-* CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-* 
-* Except as contained in this notice, the name of the Xilinx shall not be used in advertising or 
-* otherwise to promote the sale, use or other dealings in this Software without prior written 
-* authorization from Xilinx.
-* 
-*******************************************************************************/
+* Permission is hereby granted, free of charge, to any person obtaining a copy
+* of this software and associated documentation files (the "Software"), to deal
+* in the Software without restriction, including without limitation the rights
+* to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+* copies of the Software, and to permit persons to whom the Software is
+* furnished to do so, subject to the following conditions:
+*
+* The above copyright notice and this permission notice shall be included in
+* all copies or substantial portions of the Software.
+*
+* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+* IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+* XILINX CONSORTIUM BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+* WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF
+* OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+* SOFTWARE.
+*
+* Except as contained in this notice, the name of the Xilinx shall not be used
+* in advertising or otherwise to promote the sale, use or other dealings in
+* this Software without prior written authorization from Xilinx.
+*
+******************************************************************************/
 /****************************************************************************/
 /**
 *
@@ -36,6 +35,9 @@
 * and error codes
 *
 *****************************************************************************/
+
+
+
 
 #ifdef __cplusplus
 extern "C" {
@@ -90,28 +92,28 @@ extern unsigned long  * ps7_peripherals_init_data;
 
 /* Freq of all peripherals */
 
-#define APU_FREQ  866665771
-#define DDR_FREQ  399999603
-#define DCI_FREQ  10062883
-#define QSPI_FREQ  199999786
+#define APU_FREQ  866657959
+#define DDR_FREQ  399996002
+#define DCI_FREQ  10062793
+#define QSPI_FREQ  199998001
 #define SMC_FREQ  10000000
 #define ENET0_FREQ  10000000
 #define ENET1_FREQ  10000000
 #define USB0_FREQ  60000000
 #define USB1_FREQ  60000000
-#define SDIO_FREQ  99999893
-#define UART_FREQ  49999947
-#define SPI_FREQ  166666489
-#define I2C_FREQ  144444305
-#define WDT_FREQ  144444305
+#define SDIO_FREQ  99999001
+#define UART_FREQ  49999500
+#define SPI_FREQ  159998398
+#define I2C_FREQ  144442993
+#define WDT_FREQ  144442993
 #define TTC_FREQ  50000000
 #define CAN_FREQ  10000000
-#define PCAP_FREQ  199999786
+#define PCAP_FREQ  199998001
 #define TPIU_FREQ  200000000
-#define FPGA0_FREQ  49999947
-#define FPGA1_FREQ  99999893
-#define FPGA2_FREQ  153845993
-#define FPGA3_FREQ  199999786
+#define FPGA0_FREQ  49999500
+#define FPGA1_FREQ  99999001
+#define FPGA2_FREQ  149998489
+#define FPGA3_FREQ  199998001
 
 
 /* For delay calculation using global registers*/

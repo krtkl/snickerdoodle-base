@@ -1,11 +1,15 @@
-16:40:59 INFO  : Registering command handlers for SDK TCF services
-16:40:59 INFO  : Launching XSCT server: xsct.bat -interactive Z:\Projects\snickerdoodle\snickerdoodle-base\snickerdoodle_black\snickerdoodle_black.sdk\temp_xsdb_launch_script.tcl
-16:41:04 INFO  : XSCT server has started successfully.
-16:41:06 INFO  : Successfully done setting XSCT server connection channel  
-16:41:06 INFO  : Successfully done setting SDK workspace  
-16:41:06 INFO  : Processing command line option -hwspec Z:/Projects/snickerdoodle/snickerdoodle-base/snickerdoodle_black/snickerdoodle_black.sdk/base_wrapper.hdf.
-16:43:21 INFO  : Registering command handlers for SDK TCF services
-16:43:21 INFO  : Launching XSCT server: xsct.bat -interactive Z:\Projects\snickerdoodle\snickerdoodle-base\snickerdoodle_black\snickerdoodle_black.sdk\temp_xsdb_launch_script.tcl
-16:43:24 INFO  : XSCT server has started successfully.
-16:43:25 INFO  : Successfully done setting XSCT server connection channel  
-16:43:25 INFO  : Successfully done setting SDK workspace  
+20:08:07 INFO  : Registering command handlers for SDK TCF services
+20:08:08 INFO  : Launching XSCT server: xsct.bat -interactive C:\git\snickerdoodle-base\snickerdoodle_black\snickerdoodle_black.sdk\temp_xsdb_launch_script.tcl
+20:08:11 INFO  : XSCT server has started successfully.
+20:08:11 INFO  : Processing command line option -hwspec C:/git/snickerdoodle-base/snickerdoodle_black/snickerdoodle_black.sdk/base_wrapper.hdf.
+20:08:11 INFO  : Successfully done setting XSCT server connection channel  
+20:08:11 INFO  : Successfully done setting SDK workspace  
+20:24:31 INFO  : Invoking Bootgen: bootgen -image newFSBL.bif -arch zynq -o C:\git\snickerdoodle-base\snickerdoodle_black\snickerdoodle_black.sdk\newFSBL\bootimage\BOOT.bin
+20:24:31 INFO  : Creating new bif file C:\git\snickerdoodle-base\snickerdoodle_black\snickerdoodle_black.sdk\newFSBL\bootimage\newFSBL.bif
+20:24:33 INFO  : Bootgen command execution is done.
+20:29:12 INFO  : Invoking Bootgen: bootgen -image newFSBL.bif -arch zynq -o C:\git\snickerdoodle-base\snickerdoodle_black\snickerdoodle_black.sdk\newFSBL\bootimage\BOOT.bin
+20:29:12 INFO  : Creating new bif file C:\git\snickerdoodle-base\snickerdoodle_black\snickerdoodle_black.sdk\newFSBL\bootimage\newFSBL.bif
+20:29:15 INFO  : Bootgen command execution is done.
+20:31:18 INFO  : Invoking Bootgen: bootgen -image newFSBL.bif -arch zynq -o C:\git\snickerdoodle-base\snickerdoodle_black\snickerdoodle_black.sdk\newFSBL\bootimage\BOOT.bin
+20:31:18 INFO  : Creating new bif file C:\git\snickerdoodle-base\snickerdoodle_black\snickerdoodle_black.sdk\newFSBL\bootimage\newFSBL.bif
+20:31:20 INFO  : Bootgen command execution is done.

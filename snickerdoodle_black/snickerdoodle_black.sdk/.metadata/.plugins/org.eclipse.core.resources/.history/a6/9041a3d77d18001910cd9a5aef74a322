@@ -1,0 +1,7 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]C:\git\snickerdoodle-base\snickerdoodle_black\snickerdoodle_black.sdk\newFSBL\Debug\newFSBL.elf
+	C:\git\snickerdoodle-base\snickerdoodle_black\snickerdoodle_black.sdk\base_wrapper_hw_platform_0\base_wrapper.bit
+	\\vmware-host\Shared Folders\VMWare-shared\u-boot.elf
+}
